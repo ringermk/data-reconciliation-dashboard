@@ -3,12 +3,12 @@ import type { BillingRecord } from '$lib/types/reconciliation';
 export const sourceData: BillingRecord[] = [
 	{
 		recordId: 'ACCT-1001',
-		customerName: 'Acme Health',
+		customerName: 'KU Health',
 		balance: 1250.00
 	},
 	{
 		recordId: 'ACCT-1002',
-		customerName: 'Northside Clinic',
+		customerName: 'AdventHealth Shawnee',
 		balance: 875.25
 	},
 	{
@@ -18,7 +18,7 @@ export const sourceData: BillingRecord[] = [
 	},
 	{
 		recordId: 'ACCT-1004',
-		customerName: 'Summit Diagnostics',
+		customerName: 'Mosaic Diagnostics',
 		balance: 640.75
 	}
 ];
